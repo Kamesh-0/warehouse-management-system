@@ -120,14 +120,25 @@ npm start
 
 # 📸 Project Screenshots
 
-Add screenshots here after uploading them.
+## Login Page
 
-- Login Page
-- Dashboard
-- Product Management
-- Supplier Management
-- Inventory Management
+![Login](frontend/screenshots/login.png)
 
+## Dashboard
+
+![Dashboard](frontend/screenshots/dashboard.png)
+
+## Products
+
+![Products](frontend/screenshots/products.png)
+
+## Suppliers
+
+![Suppliers](frontend/screenshots/suppliers.png)
+
+## Inventory
+
+![Inventory](frontend/screenshots/inventory.png)
 ---
 
 # 👨‍💻 Author
