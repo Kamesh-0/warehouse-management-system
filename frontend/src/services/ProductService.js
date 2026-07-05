@@ -3,9 +3,8 @@ import axios from "axios";
 const BASE_URL = "http://localhost:8088";
 
 export const loginUser = (user) => {
-    return axios.post(BASE_URL + "/users/login", user);
+  return axios.post("http://localhost:8088/users/login", user);
 };
-
 export const registerUser = (user) => {
     return axios.post(BASE_URL + "/users/register", user);
 };
@@ -66,7 +65,6 @@ export const getInventoryById = (id) => {
   return axios.get("http://localhost:8088/inventory/" + id);
 };
 
-export const updateInventory = (id, inventory) => {
+export const updateInventory = (inventory) => {
   return axios.put("http://localhost:8088/inventory", inventory);
 };
-

@@ -19,18 +19,31 @@ function Login() {
 
   const login = async () => {
     try {
-      const response = await loginUser(user);
+        const response = await loginUser(user);
 
-      if (response.data) {
-        toast.success("Login Successful");
-        navigate("/dashboard");
-      } else {
-        toast.error("Invalid Username or Password");
-      }
+        console.log("Login Response:", response.data);
+
+        if (response.data !== null && response.data !== "") {
+            toast.success("Login Successful");
+
+            // Save user data (optional)
+            localStorage.setItem("user", JSON.stringify(response.data));
+
+            navigate("/dashboard");
+        } else {
+            toast.error("Invalid Username or Password");
+        }
+
     } catch (error) {
-      toast.error("Login Failed");
+        console.error("Login Error:", error);
+
+        if (error.response) {
+            console.log("Response:", error.response.data);
+        }
+
+        toast.error("Login Failed");
     }
-  };
+};
 
   const googleSuccess = () => {
     toast.success("Google Login Successful");
