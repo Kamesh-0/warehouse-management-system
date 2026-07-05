@@ -1,0 +1,85 @@
+.stats-section {
+  margin-top: 30px;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: white;
+  width: 230px;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+}
+
+.stat-icon {
+  font-size: 42px;
+}
+
+.stat-title {
+  color: #64748b;
+  margin-top: 10px;
+}
+
+.stat-number {
+  font-size: 34px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-top: 10px;
+}
+
+.recent-box {
+  background: white;
+  width: 48%;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+}
+
+.recent-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-box th {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+.recent-box td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.recent-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-box li {
+  background: #fff7ed;
+  border-left: 5px solid #f59e0b;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .stat-card,
+  .recent-box {
+    width: 100%;
+  }
+}

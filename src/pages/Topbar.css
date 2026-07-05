@@ -1,0 +1,64 @@
+.topbar {
+  background: white;
+  padding: 18px 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbar-title h1 {
+  margin: 0;
+  color: #1e3a8a;
+  font-size: 26px;
+}
+
+.topbar-title p {
+  margin: 5px 0 0;
+  color: #64748b;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar-search {
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+}
+
+.topbar-icon {
+  background: #f1f5f9;
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+
+.topbar-profile {
+  background: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .topbar-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .topbar-search,
+  .topbar-icon,
+  .topbar-profile {
+    width: 100%;
+  }
+}
