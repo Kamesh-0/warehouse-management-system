@@ -1,70 +1,155 @@
-# Getting Started with Create React App
+# 📦 Warehouse Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Full Stack Warehouse Management System developed using **React JS**, **Spring Boot**, and **MySQL**. The application helps businesses manage products, suppliers, inventory, and user authentication through a modern web interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# 🚀 Features
 
-### `npm start`
+## User Authentication
+- User Login
+- User Registration
+- Forgot Password (OTP)
+- Google Sign-In
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dashboard
+- Dashboard Statistics
+- Low Stock Alerts
+- Recent Products
+- Recent Suppliers
+- Charts & Reports
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Product Management
+- Add Product
+- Update Product
+- Delete Product
+- Search Products
+- Export to PDF
+- Export to Excel
+- Print Products
 
-### `npm test`
+## Supplier Management
+- Add Supplier
+- Update Supplier
+- Delete Supplier
+- Search Suppliers
+- Export to PDF
+- Export to Excel
+- Print Suppliers
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Inventory Management
+- Add Inventory
+- Update Inventory
+- Delete Inventory
+- Search Inventory
+- Export to PDF
+- Export to Excel
+- Print Inventory
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 🛠️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Frontend
+- React JS
+- HTML5
+- CSS3
+- JavaScript
+- Axios
+- React Router
+- React Toastify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Backend
+- Spring Boot
+- Java
+- Spring Data JPA
+- REST API
+- Maven
 
-### `npm run eject`
+## Database
+- MySQL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tools
+- Eclipse
+- VS Code
+- Git
+- GitHub
+- Postman
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+warehouse-management-system
+│
+├── backend
+│   ├── src
+│   ├── pom.xml
+│   └── mvnw
+│
+├── frontend
+│   ├── public
+│   ├── src
+│   ├── package.json
+│   └── package-lock.json
+│
+└── README.md
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# ▶️ How to Run the Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Backend
 
-### Code Splitting
+```bash
+cd backend
+mvn spring-boot:run
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Frontend
 
-### Analyzing the Bundle Size
+```bash
+cd frontend
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# 📸 Project Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Login Page
 
-### Advanced Configuration
+![Login](frontend/screenshots/login.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Dashboard
 
-### Deployment
+![Dashboard](frontend/screenshots/dashboard.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Products
 
-### `npm run build` fails to minify
+![Products](frontend/screenshots/products.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Suppliers
+
+![Suppliers](frontend/screenshots/suppliers.png)
+
+## Inventory
+
+![Inventory](frontend/screenshots/inventory.png)
+---
+
+# 👨‍💻 Author
+
+**Kamesh G**
+
+- B.Tech – Information Technology
+- Jaya Engineering College
+
+---
+
+# ⭐ GitHub Repository
+
+If you like this project, please consider giving it a ⭐ on GitHub.
